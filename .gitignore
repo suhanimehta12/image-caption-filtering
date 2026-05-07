@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+dist/
+build/
+
+# Backend
+backend/feedback_log.csv
+backend/*.csv
+
+# Node / React
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.production
+frontend/.DS_Store
+
+# HuggingFace cache
+.cache/
+*.pt
+*.bin
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+node_modules/
+venv/
+__pycache__/
+dist/
+build/
+.env
